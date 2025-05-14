@@ -4,6 +4,7 @@
 // import './App.css'
 import Counter from '../src/page/Counter.jsx';
 import ProfileCard from '../src/page/ProfileCard.jsx';
+import DarkModeToggle from './state/DarkModeToggle.jsx';
 
 export default function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,14 @@ export default function App() {
       <div>
         <h1>프로필 카드 예제</h1>
         <ProfileCard />
+      </div>
+      <div>
+        <h1>inputform 예제</h1>
+        <inputForm />
+      </div>
+      <div>
+        <h1>다크모드 예제</h1>
+        <DarkModeToggle />
       </div>
 
 
